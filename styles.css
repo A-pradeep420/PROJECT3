@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quiz-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  #quiz {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #question-container {
+    margin-bottom: 20px;
+  }
+  
+  #question-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  #answer-list {
+    list-style-type: none;
+  }
+  
+  .answer-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d87f0;
+    color: white;
+    border: none;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .answer-btn:hover {
+    background-color: #1c64b1;
+  }
+  
+  #timer {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  #score {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #result {
+    text-align: center;
+  }
+  
+  #retry-btn {
+    padding: 10px 20px;
+    background-color: #f2b600;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #retry-btn:hover {
+    background-color: #f2a400;
+  }
+  
+  #next-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  

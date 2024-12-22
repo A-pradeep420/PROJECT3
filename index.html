@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Simple Quiz</h1>
+    <div id="quiz">
+      <div id="question-container">
+        <p id="question-text">Loading question...</p>
+        <ul id="answer-list">
+          <li><button class="answer-btn">Answer 1</button></li>
+          <li><button class="answer-btn">Answer 2</button></li>
+          <li><button class="answer-btn">Answer 3</button></li>
+          <li><button class="answer-btn">Answer 4</button></li>
+        </ul>
+      </div>
+      <div id="timer">
+        Time left: <span id="time">30</span> seconds
+      </div>
+      <div id="score">Score: 0</div>
+      <button id="next-btn" class="hidden">Next Question</button>
+    </div>
+    <div id="result" class="hidden">
+      <h2>Quiz Completed!</h2>
+      <p id="final-score">Your Score: 0</p>
+      <button id="retry-btn">Retry</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
